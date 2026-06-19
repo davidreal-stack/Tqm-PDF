@@ -1,0 +1,42 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Entorno ───────────────────────────────────────────────────────────────────
+.env
+*.env.local
+*.env.production
+
+# ── Node ──────────────────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── Archivos temporales DocuForge ─────────────────────────────────────────────
+uploads/
+outputs/
+*.tmp.*
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── SO ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Docker ───────────────────────────────────────────────────────────────────
+*.log
